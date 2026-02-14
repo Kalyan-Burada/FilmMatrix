@@ -86,7 +86,7 @@ Files Used:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/movie-recommender-streamlit.git
+git clone https://github.com/Kalyan-Burada/FilmMatrix.git
 ```
 
 ```bash
