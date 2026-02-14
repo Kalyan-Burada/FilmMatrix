@@ -84,94 +84,110 @@ Files Used:
 ## ⚙️ Installation & Setup
 
 ### 1. Clone Repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/movie-recommender-streamlit.git
+```
+
+```bash
 cd movie-recommender-streamlit
-2. Create Virtual Environment
+```
+
+---
+
+### 2. Create Virtual Environment
+
+```bash
 python -m venv venv
-Activate Environment:
+```
 
-Windows
+**Activate Environment**
 
+**Windows**
+
+```bash
 venv\Scripts\activate
-Mac/Linux
+```
 
+**Mac / Linux**
+
+```bash
 source venv/bin/activate
-3. Install Dependencies
+```
+
+---
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
-4. Run Application
+```
+
+---
+
+### 4. Run Application
+
+```bash
 streamlit run app.py
+```
+
 Open in browser:
 
+```
 http://localhost:8501
-📦 Requirements
+```
+
+---
+
+## 📦 Requirements
+
+```
 streamlit
 pandas
 numpy
 scikit-learn
 requests
-🔑 TMDB API Key
-This project uses TMDB API to fetch movie posters.
-
-Get a free API key from:
-https://www.themoviedb.org/settings/api
-
-Replace the API key inside app.py with your own key if needed.
-
-🎯 Recommendation Algorithm
-Content-Based Filtering
-
-Cosine Similarity
-
-TF-IDF / Count Vectorization (during model building)
-
-Pre-computed Similarity Matrix for fast runtime performance
-
-⚠️ Limitations
-Works only for movies present in dataset
-
-Similarity depends on dataset quality
-
-Poster fetching requires internet connection
-
-No genre or user preference filters yet
-
-🔮 Future Improvements
-Genre-based filtering
-
-User login & personalization
-
-Cloud deployment (Streamlit Cloud / Render / Heroku)
-
-Larger dataset integration
-
-Hybrid Recommendation System
-
-Trailer preview integration
-
-🧪 Optional Enhancements
-Loading spinner while fetching posters
-
-Search bar instead of dropdown
-
-Dark / Light theme toggle
-
-Favorites & Watchlist feature
-
-Pagination for results
-
-📜 License
-This project is licensed under the MIT License.
-
-👨‍💻 Author
-Kalyan Burada
-
-⭐ If you find this project useful, consider giving it a star!
+```
 
 ---
 
-This version is:
-- Clean
-- Properly formatted
-- Recruiter-friendly
-- Ready for portfolio / resume / placements.
+## 🔑 TMDB API Key
+
+This project uses TMDB API to fetch movie posters.  
+Get a free API key from: https://www.themoviedb.org/settings/api  
+Replace the API key inside `app.py` with your own key if needed.
+
+---
+
+## 🎯 Recommendation Algorithm
+- Content-Based Filtering  
+- Cosine Similarity  
+- TF-IDF / Count Vectorization  
+- Pre-computed Similarity Matrix  
+
+---
+
+## ⚠️ Limitations
+- Works only for movies present in dataset  
+- Similarity depends on dataset quality  
+- Poster fetching requires internet connection  
+
+---
+
+## 🔮 Future Improvements
+- Genre-based filtering  
+- User login & personalization  
+- Cloud deployment  
+- Hybrid recommendation system  
+
+---
+
+## 📜 License
+MIT License
+
+---
+
+## 👨‍💻 Author
+**Kalyan Burada**
+
+⭐ If you find this project useful, consider giving it a star!
