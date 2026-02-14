@@ -49,29 +49,27 @@ The system uses a **pre-computed similarity matrix** and fetches real-time movie
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
+```
 movie-recommender-streamlit/
+├── app.py
+├── notebook.ipynb
+├── movies.pkl
+├── similarity.pkl
 │
-├── data/ # Dataset files
-│ ├── tmdb_5000_movies.csv
-│ └── tmdb_5000_credits.csv
+├── data/
+│   ├── tmdb_5000_movies.csv
+│   └── tmdb_5000_credits.csv
 │
-├── app.py # Main Streamlit application
-├── movies.pkl # Processed movie data
-├── similarity.pkl # Precomputed similarity matrix
-├── notebook.ipynb # Model creation / preprocessing notebook
+├── assets/
 │
-├── assets/ # Screenshots / demo images (optional)
-│
+├── requirements.txt
 ├── README.md
 ├── LICENSE
-├── requirements.txt
-├── .gitignore
-└── venv/ # Local environment (ignored in Git)
+└── .gitignore
+```
 
-
----
 
 ## 📊 Dataset
 
